@@ -1,14 +1,10 @@
 body{
     min-height: 100vh;
-    background: rgb(66,92,185);
-    background: linear-gradient(
-        90deg,
-        rgb(1, 8, 34) 0%,
-        rgba(4, 28, 61, 0.844) 50%,
-        rgb(1, 11, 44) 93%)
+    background: rgb(0, 5, 22);
+    
 }
 #main-page{
-    min-height: 100vh;
+    
     margin-top: 130px;
 }
 .fsize{
@@ -16,10 +12,18 @@ body{
     color: rgba(63, 164, 204, 0.547);
     height: 200px;
 }
+span{
+    border:solid 1px rgb(28, 27, 27);
+    border-radius: 8px;
+    box-shadow: rgb(43, 82, 103) 2px 2px 20px;
+}
 
 @media screen and (max-width: 767px) {
     .fsize{
         font-size: 3rem;
         height: 120px;
+    }
+    #main-page{
+        margin-top: 150px;
     }
 }
