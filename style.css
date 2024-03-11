@@ -7,6 +7,10 @@ body{
         rgba(4, 28, 61, 0.844) 50%,
         rgb(1, 11, 44) 93%)
 }
+#main-page{
+    min-height: 100vh;
+    margin-top: 130px;
+}
 .fsize{
     font-size: 5rem;
     color: rgba(63, 164, 204, 0.547);
