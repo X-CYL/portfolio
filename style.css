@@ -1,21 +1,25 @@
 body{
-    min-height: 100vh;
-    background: rgb(0, 5, 22);
+    /*min-height: 100vh;
+    background: rgb(6, 34, 127);*/
+    background-image: url("/pics/skyStars.jpeg");
     
 }
-#main-page{
-    
+/*.cont-home{
     margin-top: 130px;
 }
+.cont-contact{
+    margin-top: 180px;
+}*/
 .fsize{
     font-size: 5rem;
     color: rgba(63, 164, 204, 0.547);
     height: 200px;
 }
 span{
+    background-color: rgba(15, 42, 76, 0.723);
     border:solid 1px rgb(28, 27, 27);
     border-radius: 8px;
-    box-shadow: rgb(43, 82, 103) 2px 2px 20px;
+    box-shadow: rgb(69, 100, 117) 2px 2px 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -23,7 +27,10 @@ span{
         font-size: 3rem;
         height: 120px;
     }
-    #main-page{
-        margin-top: 150px;
+    /*.cont-home{
+        margin-top: 100px;
     }
+    .cont-contact{
+        margin-top: 230px;
+    }*/
 }
