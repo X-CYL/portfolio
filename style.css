@@ -15,7 +15,14 @@ body{
     color: rgba(63, 164, 204, 0.547);
     height: 200px;
 }
-
+.nav-item:hover{
+    background-color: rgba(24, 83, 114, 0.723);
+    border-radius: 6px;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 @media screen and (max-width: 767px) {
     .fsize{
         font-size: 3rem;
